@@ -15,7 +15,7 @@
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -25,46 +25,18 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇮🇱 以色列 (Israel) 02 - xiaohe",
-      "server": "172.67.126.137",
-      "server_port": 443,
-      "uuid": "adeaebbe-5719-4c28-9b11-5df0d3331c88",
-      "tls": {
-        "enabled": true,
-        "server_name": "Freedom32.Pages.DEV",
-        "insecure": false,
-        "alpn": [
-          "h3"
-        ],
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/assets?ed=2560",
-        "headers": {
-          "Host": "freedom32.pages.dev"
-        }
-      }
-    },
-    {
       "type": "selector",
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇱 以色列 (Israel) 01 - xiaohe",
-        "🇮🇱 以色列 (Israel) 02 - xiaohe"
+        "🇮🇱 以色列 (Israel) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇱 以色列 (Israel) 01 - xiaohe",
-        "🇮🇱 以色列 (Israel) 02 - xiaohe"
+        "🇮🇱 以色列 (Israel) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
