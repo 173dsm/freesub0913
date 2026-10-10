@@ -5,15 +5,16 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "188.114.98.134",
+      "tag": "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe",
+      "server": "45.139.24.28",
       "server_port": 443,
-      "uuid": "ba49d874-fe02-465d-82d3-ed981dc7694f",
+      "uuid": "2f9107cb-9af0-4c94-a89d-50437218e5fa",
       "tls": {
         "enabled": true,
-        "server_name": "o94yv7LiF0-AnxIsd9EFehVvs7mXn6bh.z-UlE-ikA-d-e-nE-k-E.WorkeRs.dEv",
+        "server_name": "ap2.directly.chat",
         "insecure": false,
         "alpn": [
+          "h2",
           "http/1.1"
         ],
         "utls": {
@@ -23,9 +24,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/",
+        "path": "/md/1",
         "headers": {
-          "Host": "o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev"
+          "Host": "ap2.directly.chat"
         }
       }
     },
@@ -34,14 +35,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇲🇩 摩尔多瓦 (Moldova) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
