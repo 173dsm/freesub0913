@@ -6,18 +6,21 @@
     {
       "type": "vmess",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "www.windowsmsidownloads.com",
+      "server": "guanwang.awsno.com",
       "server_port": 443,
-      "uuid": "80be2deb-3b27-4775-9bd1-7f2a2b9c261b",
+      "uuid": "6a89a215-22bf-4bd7-9642-b95b2e09583a",
       "security": "auto",
       "tls": {
         "enabled": true,
-        "server_name": "www.windowsmsidownloads.com",
+        "server_name": "guanwang.awsno.com",
         "insecure": false
       },
       "transport": {
         "type": "ws",
-        "path": "/truth"
+        "path": "/hls/cctv5phd.m3u8",
+        "headers": {
+          "Host": "guanwang.awsno.com"
+        }
       }
     },
     {
